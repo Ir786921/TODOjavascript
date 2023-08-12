@@ -1,0 +1,90 @@
+.container-fluid{
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+.todo-container{
+  margin: auto;
+
+ width: 55%;
+ background-color: cornflowerblue;
+ border-radius: 1rem;
+    
+}
+#heading{
+ 
+    border-bottom: 2px solid black;
+}
+
+#input-todo{
+       width: 50%;
+       padding: 8px 18px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  /* border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px; */
+
+
+
+       border: transparent;
+       background-color: #F0F0F0;
+       outline: transparent;
+}
+#add-todo{
+    padding: 8px 30px;
+    /* border-radius: 15px; */
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 15px;
+    border: transparent;
+    background-color: rgb(231, 76, 20);
+    margin-left: -10px;
+ 
+}
+.todo-box{
+   
+}
+#todos{
+    
+    width: 66%;
+    padding: 10px 12px;
+}
+#list-item{
+     
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    margin: auto;
+    border: transparent;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 6px;
+    background-color: whitesmoke;
+    color: blueviolet;
+    border-radius: 5px;
+    outline: 2px solid blueviolet;
+
+}
+#iscomplete{
+  
+ width: 25px;
+ border:transparent;
+
+}
+#delbtn{
+    padding: 0px auto 0px ;  
+    border: transparent;
+   
+
+}
+span{
+    margin-top: 0.2rem;
+    overflow:hidden;
+}
+
